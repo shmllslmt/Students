@@ -1,9 +1,12 @@
+import java.util.ArrayList;
+
 public class Student {
     // attributes
     private String studentID;
     private String name;
     private int age;
     private String programme;
+    private ArrayList<String> subjects;
     // no-arg constructor
     Student() {
         this("S001", "John Doe", 20, "Diploma in Information Technology");
@@ -58,4 +61,10 @@ public class Student {
                 "\nProgramme: "+programme;
     }
     // task / helper method
+    public void addSubject(String subjectName) {
+        subjects.add(subjectName);
+    }
+    public void dropSubject(String subjectName) {
+        subjects.remove(subjectName);
+    }
 }
