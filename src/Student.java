@@ -72,4 +72,8 @@ public class Student {
     public void dropSubject(String subjectName) {
         subjects.remove(subjectName);
     }
+
+    public ArrayList<String> getSubjects() {
+        return subjects;
+    }
 }

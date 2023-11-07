@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd40673d-9c68-4e7c-9cfe-940c4138802d" name="Changes" comment="add / drop subject">
+    <list default="true" id="fd40673d-9c68-4e7c-9cfe-940c4138802d" name="Changes" comment="Construct ArrayList object">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
@@ -59,12 +59,20 @@
       <option name="project" value="LOCAL" />
       <updated>1699325961474</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Construct ArrayList object">
+      <created>1699326939190</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699326939191</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic structure" />
     <MESSAGE value="add / drop subject" />
-    <option name="LAST_COMMIT_MESSAGE" value="add / drop subject" />
+    <MESSAGE value="Construct ArrayList object" />
+    <option name="LAST_COMMIT_MESSAGE" value="Construct ArrayList object" />
   </component>
 </project>
