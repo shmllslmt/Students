@@ -7,6 +7,7 @@ public class Student {
     private int age;
     private String programme;
     private ArrayList<String> subjects;
+    public static int numOfStudents = 0;
     // no-arg constructor
     Student() {
         this("S001", "John Doe", 20, "Diploma in Information Technology");
@@ -17,6 +18,10 @@ public class Student {
         this.name = name;
         this.age = age;
         this.programme = programme;
+
+        subjects = new ArrayList<>();
+
+        numOfStudents++;
     }
 
     // getter / accessor - to retrieve value of attributes
